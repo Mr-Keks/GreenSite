@@ -62,12 +62,25 @@ main{
 	padding: 10px;
 }
 
-.m1{
-	flex-grow: 1;	
+.m1{	
 	border: 1px solid cyan;
+	width: 64%;
+	padding: 5px;
 }
 
 .m2{
 	border: 1px solid magenta;
-	flex-grow: 2;
+	width: 30%;
+	padding: 5px;
+}
+.m2 img{
+	height: 120px;
+	width: 130px;
+	padding-left: 15px;
+}
+header, nav, footer {
+	background-color: #4ac14a;
+}
+main {
+	background-color: #9df192;
 }
